@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "tap": "^18.7.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "tap": {
+    "before": "./test/fixtures/setup.ts",
+    "after": "./test/fixtures/teardown.ts"
+  }
+}
